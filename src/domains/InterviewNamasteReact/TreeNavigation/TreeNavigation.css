@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.tree-container {
+  text-align: left;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.node {
+  margin-left: 20px;
+}
+
+.node-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+.folder {
+  font-weight: bold;
+}
+
+.file {
+  font-style: italic;
+}
+
+.children {
+  margin-left: 44px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: blue;
+}

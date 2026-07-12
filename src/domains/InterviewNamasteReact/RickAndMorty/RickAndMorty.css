@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.rick-and-morty-container {
+  min-height: 100vh;
+  margin: 2rem 0;
+  background-color: #c2c2c2;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 1rem;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 4px;
+  row-gap: 4px;
+  margin: 1rem;
+}
+
+.card {
+  width: 180px;
+  border: 1px solid black;
+}
+.char-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.char-status,
+.char-species {
+  font-size: 12px;
+  margin: 2px 0;
+}
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+.pagination {
+  margin: 1rem 0 1.5rem;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.pagination button {
+  padding: 5px 10px;
+}
+
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-size: 18px;
+}
+.loading-icon {
+  margin: 0 10px;
+  transform: rotate(0deg);
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

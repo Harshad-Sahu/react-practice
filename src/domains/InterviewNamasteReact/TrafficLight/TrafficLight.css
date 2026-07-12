@@ -1,0 +1,51 @@
+.traffic-light-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.traffic-light-title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.traffic-light {
+  background: #222;
+  border-radius: 30px;
+  width: 96px;
+  padding: 25px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 15px #444;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  background: #333;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.red-on {
+  background: #d52b1e;
+  opacity: 1;
+  box-shadow: 0 0 24px #d52b1e;
+}
+
+.yellow-on {
+  background: #ffed00;
+  opacity: 1;
+  box-shadow: 0 0 24px #ffed00;
+}
+
+.green-on {
+  background: #00bb2d;
+  opacity: 1;
+  box-shadow: 0 0 24px #00bb2d;
+}

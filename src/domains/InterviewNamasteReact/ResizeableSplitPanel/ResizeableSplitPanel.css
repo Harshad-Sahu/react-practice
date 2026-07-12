@@ -1,0 +1,45 @@
+.split-panel {
+  display: flex;
+  width: 100%;
+  min-height: 300px;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.panel {
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.left {
+  min-width: 100px;
+  background-color: #ff8abf;
+  flex-shrink: 0;
+}
+
+.resizer {
+  width: 12px;
+  cursor: col-resize;
+  background-color: #7e7d7d;
+  transition: background-color 0.2s ease;
+}
+
+.resizer:hover,
+.resizer:active {
+  background-color: #666;
+}
+
+.right {
+  background-color: #a9f6f8;
+  text-align: center;
+  flex: 1;
+  min-width: 100px;
+}
