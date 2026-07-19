@@ -18,8 +18,6 @@ Array.prototype.myForEach = function (callback, args) {
 };
 
 const array = [1, 2, 3, 4, 5];
-console.log(
-  array.myForEach((n) => {
-    return n * 2;
-  }),
-);
+array.myForEach((n) => {
+  console.log(n * 2);
+});

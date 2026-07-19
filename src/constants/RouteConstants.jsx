@@ -111,4 +111,14 @@ export const Routes_NamasteReact = [
     label: "Rick & Morty",
     element: <NAMASTE_COMPONENT.RickAndMortyCharacters />,
   },
+  {
+    path: "/file-explorer",
+    label: "VS CODE - File Explorer",
+    element: <NAMASTE_COMPONENT.VSCodeFileExplorer />,
+  },
+  {
+    path: "/infinite-scroll",
+    label: "Infinite Scroll - Rick & Morty",
+    element: <NAMASTE_COMPONENT.InfiniteScroll />,
+  },
 ];

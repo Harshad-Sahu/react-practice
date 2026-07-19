@@ -6,6 +6,8 @@ import TrafficLight from "./TrafficLight/TrafficLight";
 import KanbanBoard from "./KanbanDragAndDrop/KanbanDragAndDrop";
 import TreeNavigation from "./TreeNavigation/TreeNavigation";
 import RickAndMortyCharacters from "./RickAndMorty/RickAndMorty";
+import VSCodeFileExplorer from "./VSCodeFileExplorer/VSCodeFileExplorer";
+import InfiniteScroll from "./InfiniteScroll/InfiniteScroll";
 
 export {
   DynamicGreetingApp,
@@ -16,4 +18,6 @@ export {
   KanbanBoard,
   TreeNavigation,
   RickAndMortyCharacters,
+  VSCodeFileExplorer,
+  InfiniteScroll,
 };

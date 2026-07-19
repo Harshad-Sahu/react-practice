@@ -1,0 +1,98 @@
+.infinite-scroll-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.character-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Horizontal card: image flex-child + info flex-child */
+.character-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid #2f3136;
+  border-radius: 10px;
+  padding: 12px;
+  background: #202225;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  /* Reserve height up front so cards popping in doesn't reflow/jitter the layout */
+  min-height: 88px;
+}
+
+.character-card__media {
+  flex: 0 0 72px;
+}
+
+.character-card__media img {
+  width: 72px;
+  height: 72px;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+}
+
+.character-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #e4e4e4;
+}
+
+.character-card__name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.character-card__status {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #b9bbbe;
+}
+
+.character-card__species {
+  margin: 0;
+  font-size: 13px;
+  color: #b9bbbe;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #9aa0a6;
+}
+
+.status-dot--alive {
+  background: #3ba55d;
+}
+
+.status-dot--dead {
+  background: #ed4245;
+}
+
+/* Invisible IntersectionObserver target pinned to the bottom of the list. */
+.scroll-sentinel {
+  height: 1px;
+  width: 100%;
+}
+
+.status-text {
+  text-align: center;
+  padding: 16px 0;
+  color: #b9bbbe;
+  font-size: 14px;
+}
+
+.status-text--error {
+  color: #ed4245;
+}
