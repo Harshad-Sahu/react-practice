@@ -92,6 +92,11 @@ export const Routes_NamasteReact = [
     ),
   },
   {
+    path: "/grid-lights-two",
+    label: "Grid Lights II",
+    element: <NAMASTE_COMPONENT.GridLightsTwo />,
+  },
+  {
     path: "/traffic-light",
     label: "Traffic Light",
     element: <NAMASTE_COMPONENT.TrafficLight />,
@@ -120,5 +125,10 @@ export const Routes_NamasteReact = [
     path: "/infinite-scroll",
     label: "Infinite Scroll - Rick & Morty",
     element: <NAMASTE_COMPONENT.InfiniteScroll />,
+  },
+  {
+    path: "/react-query-demo",
+    label: "React Query - JSONPlaceholder Posts",
+    element: <NAMASTE_COMPONENT.RTKExample />,
   },
 ];

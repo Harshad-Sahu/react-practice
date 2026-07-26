@@ -1,0 +1,134 @@
+.rtk-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.rtk-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.rtk-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.rtk-refetch-btn {
+  border: 1px solid #4f545c;
+  background: #2f3136;
+  color: #e4e4e4;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.rtk-refetch-btn:hover:not(:disabled) {
+  background: #3a3d42;
+}
+
+.rtk-refetch-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.rtk-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.rtk-form input {
+  flex: 1;
+  border: 1px solid #4f545c;
+  background: #202225;
+  color: #e4e4e4;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.rtk-form button {
+  border: none;
+  background: #3ba55d;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.rtk-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.rtk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.rtk-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #2f3136;
+  border-radius: 10px;
+  padding: 14px;
+  background: #202225;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.rtk-card__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #e4e4e4;
+}
+
+.rtk-card__body {
+  margin: 0;
+  font-size: 13px;
+  color: #b9bbbe;
+  flex: 1;
+}
+
+.rtk-card__delete {
+  align-self: flex-start;
+  border: 1px solid #ed4245;
+  background: transparent;
+  color: #ed4245;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.rtk-card__delete:hover:not(:disabled) {
+  background: #ed4245;
+  color: #fff;
+}
+
+.rtk-card__delete:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.status-text {
+  text-align: center;
+  padding: 16px 0;
+  color: #b9bbbe;
+  font-size: 14px;
+}
+
+.status-text--error {
+  color: #ed4245;
+}

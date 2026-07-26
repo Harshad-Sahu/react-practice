@@ -1,0 +1,46 @@
+.main-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.button-section {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cell.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

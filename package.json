@@ -12,6 +12,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",
     "@tailwindcss/vite": "^4.1.18",
+    "@tanstack/react-query": "^5.101.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.7.0",
