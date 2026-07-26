@@ -1,0 +1,52 @@
+.game-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  background-color: #ccc;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+  user-select: none;
+}
+
+.card.revealed {
+  background-color: #f7f09c;
+}
+
+.card.matched {
+  background-color: #8bc34a;
+  cursor: default;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.won {
+  font-size: 24px;
+  font-weight: bold;
+  color: #8bc34a;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

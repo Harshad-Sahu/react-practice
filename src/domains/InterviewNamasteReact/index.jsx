@@ -10,6 +10,7 @@ import VSCodeFileExplorer from "./VSCodeFileExplorer/VSCodeFileExplorer";
 import InfiniteScroll from "./InfiniteScroll/InfiniteScroll";
 import GridLightsTwo from "./GridLightsTwo/GridLightsTwo";
 import RTKExample from "./RTKExample/RTKExample";
+import MatchingPair from "./MatchingPair/MatchingPair";
 
 export {
   DynamicGreetingApp,
@@ -24,4 +25,5 @@ export {
   InfiniteScroll,
   GridLightsTwo,
   RTKExample,
+  MatchingPair,
 };

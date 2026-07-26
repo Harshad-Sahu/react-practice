@@ -131,4 +131,9 @@ export const Routes_NamasteReact = [
     label: "React Query - JSONPlaceholder Posts",
     element: <NAMASTE_COMPONENT.RTKExample />,
   },
+  {
+    path: "/matching-pairs",
+    label: "Matching Pair Game",
+    element: <NAMASTE_COMPONENT.MatchingPair />,
+  },
 ];
