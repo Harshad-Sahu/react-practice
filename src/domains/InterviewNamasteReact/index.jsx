@@ -11,6 +11,7 @@ import InfiniteScroll from "./InfiniteScroll/InfiniteScroll";
 import GridLightsTwo from "./GridLightsTwo/GridLightsTwo";
 import RTKExample from "./RTKExample/RTKExample";
 import MatchingPair from "./MatchingPair/MatchingPair";
+import TableWithForm from "./TableWithForm/TableWithForm";
 
 export {
   DynamicGreetingApp,
@@ -26,4 +27,5 @@ export {
   GridLightsTwo,
   RTKExample,
   MatchingPair,
+  TableWithForm,
 };

@@ -136,4 +136,9 @@ export const Routes_NamasteReact = [
     label: "Matching Pair Game",
     element: <NAMASTE_COMPONENT.MatchingPair />,
   },
+  {
+    path: "/table-with-form",
+    label: "Table with Form",
+    element: <NAMASTE_COMPONENT.TableWithForm />,
+  },
 ];
