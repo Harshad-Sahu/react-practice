@@ -146,4 +146,9 @@ export const Routes_NamasteReact = [
     label: "Tic-Tac-Toe Game",
     element: <NAMASTE_COMPONENT.TicTacToe />,
   },
+  {
+    path: "/react-timer",
+    label: "React Timer",
+    element: <NAMASTE_COMPONENT.ReactTimer />,
+  },
 ];

@@ -13,6 +13,7 @@ import RTKExample from "./RTKExample/RTKExample";
 import MatchingPair from "./MatchingPair/MatchingPair";
 import TableWithForm from "./TableWithForm/TableWithForm";
 import TicTacToe from "./TicTacToe/TicTacToe";
+import ReactTimer from "./ReactTimer/ReactTimer";
 
 export {
   DynamicGreetingApp,
@@ -30,4 +31,5 @@ export {
   MatchingPair,
   TableWithForm,
   TicTacToe,
+  ReactTimer,
 };
