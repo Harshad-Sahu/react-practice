@@ -12,6 +12,7 @@ import GridLightsTwo from "./GridLightsTwo/GridLightsTwo";
 import RTKExample from "./RTKExample/RTKExample";
 import MatchingPair from "./MatchingPair/MatchingPair";
 import TableWithForm from "./TableWithForm/TableWithForm";
+import TicTacToe from "./TicTacToe/TicTacToe";
 
 export {
   DynamicGreetingApp,
@@ -28,4 +29,5 @@ export {
   RTKExample,
   MatchingPair,
   TableWithForm,
+  TicTacToe,
 };

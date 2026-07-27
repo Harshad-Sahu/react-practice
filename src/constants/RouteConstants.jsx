@@ -141,4 +141,9 @@ export const Routes_NamasteReact = [
     label: "Table with Form",
     element: <NAMASTE_COMPONENT.TableWithForm />,
   },
+  {
+    path: "/tic-tac-toe",
+    label: "Tic-Tac-Toe Game",
+    element: <NAMASTE_COMPONENT.TicTacToe />,
+  },
 ];
