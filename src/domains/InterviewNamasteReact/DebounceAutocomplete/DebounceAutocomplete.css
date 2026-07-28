@@ -1,0 +1,131 @@
+.autocomplete-shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #0f172a 0%, #111827 45%, #1f2937 100%);
+  font-family: Inter, "Segoe UI", Roboto, sans-serif;
+}
+
+.autocomplete-card {
+  width: min(100%, 480px);
+  padding: 24px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.autocomplete-header {
+  margin-bottom: 16px;
+}
+
+.autocomplete-eyebrow {
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #cbd5e1;
+}
+
+.autocomplete-header h2 {
+  margin: 0 0 6px;
+  color: #f8fafc;
+  font-size: 1.35rem;
+}
+
+.autocomplete-header p {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.autocomplete-field {
+  position: relative;
+}
+
+.autocomplete-input {
+  width: 100%;
+  padding: 13px 44px 13px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.94);
+  color: #0f172a;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.autocomplete-input:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.2);
+}
+
+.autocomplete-icon {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.suggestions-list {
+  margin: 12px 0 0;
+  padding: 8px;
+  list-style: none;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.14);
+}
+
+.suggestion-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.suggestion-item:hover,
+.suggestion-item.active {
+  background: #eef2ff;
+  transform: translateX(2px);
+}
+
+.suggestion-label {
+  font-weight: 700;
+  color: #111827;
+}
+
+.suggestion-subtitle {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.suggestion-state {
+  padding: 12px;
+  text-align: center;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.suggestion-error {
+  color: #dc2626;
+}
+
+@media (max-width: 480px) {
+  .autocomplete-card {
+    padding: 18px;
+    border-radius: 20px;
+  }
+}

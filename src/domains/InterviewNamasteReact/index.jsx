@@ -14,6 +14,8 @@ import MatchingPair from "./MatchingPair/MatchingPair";
 import TableWithForm from "./TableWithForm/TableWithForm";
 import TicTacToe from "./TicTacToe/TicTacToe";
 import ReactTimer from "./ReactTimer/ReactTimer";
+import DebounceAutocomplete from "./DebounceAutocomplete/DebounceAutocomplete";
+import NestedComment from "./NestedComment/NestedComment";
 
 export {
   DynamicGreetingApp,
@@ -32,4 +34,6 @@ export {
   TableWithForm,
   TicTacToe,
   ReactTimer,
+  DebounceAutocomplete,
+  NestedComment,
 };

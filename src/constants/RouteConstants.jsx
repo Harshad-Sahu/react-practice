@@ -151,4 +151,14 @@ export const Routes_NamasteReact = [
     label: "React Timer",
     element: <NAMASTE_COMPONENT.ReactTimer />,
   },
+  {
+    path: "/debounce-autocomplete",
+    label: "Debounce Autocomplete",
+    element: <NAMASTE_COMPONENT.DebounceAutocomplete />,
+  },
+  {
+    path: "/nested-comments",
+    label: "Nested Comments",
+    element: <NAMASTE_COMPONENT.NestedComment />,
+  },
 ];
